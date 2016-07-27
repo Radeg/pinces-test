@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar primary>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+    <ion-buttons padding end>
+      <button>
+        <ion-icon name="notifications"></ion-icon>
+      </button>
+      <button>
+        <ion-icon name="person-add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <ion-grid>
+    <ion-row>
+      <io-col width-100>
+        <h3 text-center>Moje statistika</h3>
+        <ion-card>
+          <ion-card-title text-center>Vítězství</ion-card-title>
+          <img src="build/images/graph-dummy.png" />
+          <ion-card-content>
+            <p>
+              Počet vyhraných zápasů
+            </p>
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <ion-card-title text-center>Prohry</ion-card-title>
+          <img src="build/images/graph-dummy.png" />
+          <ion-card-content>
+            <p>
+              Počet prohraných zápasů
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </io-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
