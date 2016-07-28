@@ -20,12 +20,13 @@
     <ion-row>
       <io-col width-100>
         <h3 text-center>Moje statistika</h3>
-        <ion-card>
+        <ion-card (click)="detailStatistic()">
           <ion-card-title text-center>Vítězství</ion-card-title>
           <img src="build/images/graph-dummy.png" />
           <ion-card-content>
             <p>
-              Počet vyhraných zápasů
+              Počet vyhraných zápasů<br>
+              CLICK ME!
             </p>
           </ion-card-content>
         </ion-card>
